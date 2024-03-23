@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            /*padding: 8px;*/
+            /*text-align: center;*/
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>Student Grades</caption>
+    <tr>
+        <th rowspan="2">Student ID</th>
+        <th rowspan="2">Name</th>
+        <th colspan="4">Grades</th>
+    </tr>
+    <tr>
+        <th>Math</th>
+        <th>Programming</th>
+        <th>Database</th>
+        <th>Data Structure</th>
+    </tr>
+    <tr>
+        <td rowspan="3">101</td>
+        <td>Ahmed</td>
+        <td>85</td>
+        <td>90</td>
+        <td>78</td>
+        <td>88</td>
+    </tr>
+    <tr>
+        <td>Mohamed</td>
+        <td>92</td>
+        <td>88</td>
+        <td>91</td>
+        <td>95</td>
+    </tr>
+    <tr>
+        <td>Yousry</td>
+        <td>79</td>
+        <td>82</td>
+        <td>75</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>201</td>
+        <td>Aya</td>
+        <td colspan="4">Incomplete</td>
+    </tr>
+</table>
+
+</body>
+</html>
