@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Table with Form and Lists</title>
+</head>
+
+<body>
+
+    <table border="1">
+        <tr>
+
+            <td rowspan="2">
+                <form action="#">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age"><br><br>
+                    <label for="gender">Gender:</label><br>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                    <label for="subscribe">Subscribe to Newsletter:</label><br>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="subscribe"><br><br>
+                    <input type="submit">
+                </form>
+            </td>
+
+            <td>
+                <ul>
+                    <li>List Item 1</li>
+                    <li>List Item 2
+                        <ul>
+                            <li>Nested Item 1</li>
+                            <li>Nested Item 2</li>
+                        </ul>
+                    </li>
+                    <li>List Item 3</li>
+                </ul>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <ol>
+                    <li>Ordered Item 1</li>
+                    <li>Ordered Item 2</li>
+                    <li>Ordered Item 3
+                        <ul>
+                            <li><a href="https://google.com/">Google</a></li>
+                            <li><a href="mailto:ahmed@gmail.com">Mail Me</a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
